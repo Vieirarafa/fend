@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # Project Instructions
 
 This repo is your starter code for the project. It is the same as the starter code we began with in lesson 2. Install and configure Webpack just as we did in the course. Feel free to refer to the course repo as you build this one, and remember to make frequent commits and to create and merge branches as necessary!
@@ -106,3 +107,36 @@ Once you are hooked up to the Aylien API, you are most of the way there! Along w
 ## Deploying
 
 A great step to take with your finished project would be to deploy it! Unfortunately its a bit out of scope for me to explain too much about how to do that here, but checkout [Netlify](https://www.netlify.com/) or [Heroku](https://www.heroku.com/) for some really intuitive free hosting options.
+=======
+
+
+# Evaluare news NLP Project
+This is a project made by me for Udacity Front end Nano degree.
+
+## Table of Contents
+
+* [Specifications](#Specifications);
+* [References](#References);
+* [Dependencies](#Dependencies)
+* [how to run the project](#howToRunTheProject)
+
+## Specifications
+    *This project was made with HTML, JavaScript and Css;
+    *Their is dependencies.
+
+## Dependencies
+    *Webpack;
+    *Babel;
+    *Sass;
+    *jest;
+    *clean-webpack-plugin;
+    *workbox-webpack-plugin;
+    *html-webpack-plugin;
+
+## howToRunTheProject
+    *To install all dependencies run on terminal "npm install"
+    *To run server write on terminal "npm run start"
+    *To run jests test write on terminal "npm run test"
+    *To run Prodution mode write on terminal"npm run build-prod"
+    *To run Dev mode write on terminal"npm run build-dev"
+>>>>>>> Stashed changes

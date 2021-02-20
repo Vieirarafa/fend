@@ -5,6 +5,7 @@ function handleSubmit(event) {
     let formText = document.getElementById('name').value
     checkForName(formText)
 
+<<<<<<< Updated upstream
     console.log("::: Form Submitted :::")
     fetch('http://localhost:8080/test')
     .then(res => res.json())
@@ -12,5 +13,18 @@ function handleSubmit(event) {
         document.getElementById('results').innerHTML = res.message
     })
 }
+=======
+            return res
+        });
+        }else{
+        //Error menssage
+     console.log('Enter a valid url')
+     alert("Is Not Valid Url");
+    };
+};
+    export { handleSubmit }
+
+
+>>>>>>> Stashed changes
 
 export { handleSubmit }

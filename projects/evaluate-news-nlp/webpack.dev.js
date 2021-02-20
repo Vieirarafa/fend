@@ -5,9 +5,18 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = {
     entry: './src/client/index.js',
+<<<<<<< Updated upstream
     mode: 'development',
     devtool: 'source-map',
     stats: 'verbose',
+=======
+    output: {
+        libraryTarget: 'var',
+        library: 'Client'
+    },
+    mode: 'development',
+    devtool: 'source-map',
+>>>>>>> Stashed changes
     module: {
         rules: [
             {
