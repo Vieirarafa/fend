@@ -1,7 +1,7 @@
 
 
 # Evaluare news NLP Project
-This is a project made by me for Udacity Front end Nano degree.
+This is a project I made for the Udacity Front end Nanodegrees.
 
 ## Table of Contents
 
